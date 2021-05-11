@@ -1,0 +1,159 @@
+/* countdown */
+#countdown {
+  text-align: center;
+  font-size: 48px;
+  color: #F6E8EA;
+  background-color: #EF626C;
+  width: 100%;
+  padding: 7px 0 7px 0;
+}
+
+/* menu slides */
+.slides {
+  z-index: 0;
+  padding: 0;
+  width: 100%;
+  height: 810px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slides * {
+  user-select: none;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide-container {
+  display: block;
+}
+
+.slide {
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 810px;
+  display: block;
+  position: absolute;
+  transform: scale(0);
+  transition: all .7s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav label {
+  width: 100px;
+  height: 100%;
+  display: none;
+  position: absolute;
+  opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+  transition: opacity .2s;
+  color: #FFF;
+  font-size: 156pt;
+  text-align: center;
+  line-height: 775px;
+  font-family: "Varela Round", sans-serif;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover+.nav label {
+  opacity: 0.5;
+}
+
+.nav label:hover {
+  opacity: 1;
+}
+
+.nav .next {
+  right: 0;
+}
+
+input:checked+.slide-container .slide {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1s ease-in-out;
+}
+
+input:checked+.slide-container .nav label {
+  display: block;
+}
+
+.nav-dots {
+  width: 100%;
+  bottom: 9px;
+  height: 11px;
+  display: block;
+  position: absolute;
+  text-align: center;
+}
+
+.nav-dots .nav-dot {
+  top: -5px;
+  width: 11px;
+  height: 11px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #F6E8EA;
+}
+
+.nav-dots .nav-dot:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked~.nav-dots label#img-dot-1,
+input#img-2:checked~.nav-dots label#img-dot-2,
+input#img-3:checked~.nav-dots label#img-dot-3 {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#video-yt{
+  display: flex;
+  margin: 50px 200px 50px 200px;
+}
+
+iframe {
+  width: 100vw;
+  height: 60vh;
+}
+
+
+/* pentru tablete */
+@media only screen and (max-width: 1280px){
+  #countdown{
+    font-size: 40px;
+  }
+
+  .container-extra-footer{
+    padding: 40px;
+  }
+  .container-footer {
+    padding: 50px;
+  }
+}
+
+/* pentru telefon mobil */
+@media only screen and (max-width: 768px){
+  #countdown{
+    font-size: 30px;
+  }
+
+  .container-extra-footer{
+    padding: 10px;
+  }
+  .container-footer {
+    padding: 10px;
+  }
+}

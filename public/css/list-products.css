@@ -1,0 +1,120 @@
+.list-products-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#products-container {
+  padding: 50px;
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  flex: 0 32%;
+  margin-bottom: 2%;
+}
+
+.product {
+  --borderWidth: 3px;
+  background: #F6E8EA;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+
+.product:hover {
+  cursor: pointer;
+}
+
+.product:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg,  #ffff00, #ffd400, #ffaa00, #ff8000, #ff5500, #ff1500);
+  border-radius: calc(3 * var(--borderWidth));
+  z-index: -1;
+  animation: animate-gradient-border-product 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+.product img{
+  width: 430px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 430px;
+}
+
+.product-details div{
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+.product-details p{
+  font-size: 27px;
+  font-weight: bold;
+  color: #111111;
+  padding: 10px;
+  text-align: right;
+  margin:0;
+}
+
+.product-selectors {
+  margin: 50px 0 20px 50px;
+  width: 20%;
+  font-size: 20px;
+}
+
+.product-selectors form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  border: 2px solid #EF626C;
+}
+.product-selectors form label{
+  margin-top: 10px;
+  padding: 5px 5px 5px 10px;
+}
+.product-selectors form label:nth-child(1){
+  margin-top: 0;
+}
+
+#pages-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0 25px 0;
+}
+
+.page-item {
+  font-size: 20px;
+  color: #EF626C;
+  text-align: center;
+  padding: 5px;
+}
+
+.page-item:hover {
+  cursor: pointer;
+}
+
+@keyframes animate-gradient-border-product {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+

@@ -1,0 +1,111 @@
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
+  padding: 50px 100px 50px 100px;
+  flex-wrap: nowrap;
+  background: #111111;
+}
+
+.container-footer-sep{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.container-footer a {
+  font-size: 27px;
+  opacity: 0.7;
+  padding: 7px 0 7px 0;
+}
+
+.container-footer a:hover {
+  opacity: 1;
+}
+
+.footer-heading{
+  font-size: 27px;
+  color: #EF626C;
+  opacity: 1 !important;
+}
+
+.footer-heading a{
+  font-size: 27px;
+  color: #EF626C;
+  opacity: 1 !important;
+}
+
+.footer-column {
+  margin: 0 50px 0 50px;
+}
+
+/* pentru tablete */
+@media only screen and (max-width: 1280px){
+  .container-footer{
+    justify-content: space-evenly;
+    padding: 50px 75px 50px 75px;
+  }
+
+  .container-footer-sep{
+    justify-content: space-between;
+  }
+
+  .footer-column{
+    align-content: center;
+    margin: 20px 10px 0 10px;
+  }
+
+  .footer-heading{
+    font-size: 20px;
+  }
+
+  .footer-heading a{
+    font-size: 20px;
+  }
+
+  .footer-column{
+    padding: 10px;
+  }
+
+  .footer-column a{
+    font-size: 20px;
+  }
+}
+
+/* pentru telefon mobil */
+@media only screen and (max-width: 768px){
+  .container-footer{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px 50px 25px 50px;
+  }
+
+  .container-footer{
+    justify-content: space-evenly;
+  }
+
+  .footer-column{
+    align-content: center;
+    margin: 20px 10px 0 10px;
+  }
+
+  .footer-heading {
+    font-size: 20px;
+  }
+
+  .footer-heading a{
+    font-size: 20px;
+  }
+
+  .footer-column{
+    padding: 10px;
+  }
+
+  .footer-column a{
+    font-size: 20px;
+  }
+}

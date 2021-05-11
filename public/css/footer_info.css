@@ -1,0 +1,35 @@
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 25px 100px 0 100px;
+  padding: 10px;
+}
+
+.footer-info-container h1{
+  font-size: 40px ;
+}
+
+.footer-info-container article{
+  font-size: 20px ;
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 20px 0 20px 0;
+  padding: 5px;
+}
+
+article:nth-child(3n){
+  background-color: #EF626C;
+}
+
+article:nth-child(7){
+  background-color: #22181C;
+  color: #F6E8EA;
+}
+
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 768px) {
+}

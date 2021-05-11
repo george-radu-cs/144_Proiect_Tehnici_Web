@@ -1,0 +1,547 @@
+{
+  "women": {
+    "clothing": {
+      "sweatshirts": [
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [
+            "dressed to chill",
+            "crew neck",
+            "drop shoulders",
+            "ribbed trims"
+          ],
+          "ratings": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            4,
+            4,
+            4
+          ],
+          "comments": [
+            "Amazing!! I love it <3 <3",
+            "I w8 for the M size to buy more of this type",
+            "It's so comfy"
+          ],
+          "location": "img/products/women/clothing/sweatshirts/0/"
+        },
+        {
+          "name": "Sweatshirt gray",
+          "price": 69.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [],
+          "ratings": [],
+          "comments": [],
+          "location": "img/products/women/clothing/sweatshirts/1/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 49.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [],
+          "ratings": [],
+          "comments": [],
+          "location": "img/products/women/clothing/sweatshirts/2/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 49.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [],
+          "ratings": [],
+          "comments": [],
+          "location": "img/products/women/clothing/sweatshirts/3/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [],
+          "ratings": [],
+          "comments": [],
+          "location": "img/products/women/clothing/sweatshirts/4/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [],
+          "ratings": [],
+          "comments": [],
+          "location": "img/products/women/clothing/sweatshirts/5/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [],
+          "ratings": [],
+          "comments": [],
+          "location": "img/products/women/clothing/sweatshirts/6/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [],
+          "ratings": [],
+          "comments": [],
+          "location": "img/products/women/clothing/sweatshirts/7/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [],
+          "ratings": [],
+          "comments": [],
+          "location": "img/products/women/clothing/sweatshirts/8/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [
+            "dressed to chill",
+            "crew neck",
+            "drop shoulders",
+            "ribbed trims"
+          ],
+          "ratings": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            4,
+            4,
+            4
+          ],
+          "comments": [
+            "Amazing!! I love it <3 <3",
+            "I w8 for the M size to buy more of this type",
+            "It's so comfy"
+          ],
+          "location": "img/products/women/clothing/sweatshirts/0/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [
+            "dressed to chill",
+            "crew neck",
+            "drop shoulders",
+            "ribbed trims"
+          ],
+          "ratings": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            4,
+            4,
+            4
+          ],
+          "comments": [
+            "Amazing!! I love it <3 <3",
+            "I w8 for the M size to buy more of this type",
+            "It's so comfy"
+          ],
+          "location": "img/products/women/clothing/sweatshirts/0/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [
+            "dressed to chill",
+            "crew neck",
+            "drop shoulders",
+            "ribbed trims"
+          ],
+          "ratings": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            4,
+            4,
+            4
+          ],
+          "comments": [
+            "Amazing!! I love it <3 <3",
+            "I w8 for the M size to buy more of this type",
+            "It's so comfy"
+          ],
+          "location": "img/products/women/clothing/sweatshirts/0/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [
+            "dressed to chill",
+            "crew neck",
+            "drop shoulders",
+            "ribbed trims"
+          ],
+          "ratings": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            4,
+            4,
+            4
+          ],
+          "comments": [
+            "Amazing!! I love it <3 <3",
+            "I w8 for the M size to buy more of this type",
+            "It's so comfy"
+          ],
+          "location": "img/products/women/clothing/sweatshirts/0/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [
+            "dressed to chill",
+            "crew neck",
+            "drop shoulders",
+            "ribbed trims"
+          ],
+          "ratings": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            4,
+            4,
+            4
+          ],
+          "comments": [
+            "Amazing!! I love it <3 <3",
+            "I w8 for the M size to buy more of this type",
+            "It's so comfy"
+          ],
+          "location": "img/products/women/clothing/sweatshirts/0/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [
+            "dressed to chill",
+            "crew neck",
+            "drop shoulders",
+            "ribbed trims"
+          ],
+          "ratings": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            4,
+            4,
+            4
+          ],
+          "comments": [
+            "Amazing!! I love it <3 <3",
+            "I w8 for the M size to buy more of this type",
+            "It's so comfy"
+          ],
+          "location": "img/products/women/clothing/sweatshirts/0/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [
+            "dressed to chill",
+            "crew neck",
+            "drop shoulders",
+            "ribbed trims"
+          ],
+          "ratings": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            4,
+            4,
+            4
+          ],
+          "comments": [
+            "Amazing!! I love it <3 <3",
+            "I w8 for the M size to buy more of this type",
+            "It's so comfy"
+          ],
+          "location": "img/products/women/clothing/sweatshirts/0/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [
+            "dressed to chill",
+            "crew neck",
+            "drop shoulders",
+            "ribbed trims"
+          ],
+          "ratings": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            4,
+            4,
+            4
+          ],
+          "comments": [
+            "Amazing!! I love it <3 <3",
+            "I w8 for the M size to buy more of this type",
+            "It's so comfy"
+          ],
+          "location": "img/products/women/clothing/sweatshirts/0/"
+        },
+        {
+          "name": "Sweatshirt purple",
+          "price": 59.99,
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "details": [
+            "dressed to chill",
+            "crew neck",
+            "drop shoulders",
+            "ribbed trims"
+          ],
+          "ratings": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            4,
+            4,
+            4
+          ],
+          "comments": [
+            "Amazing!! I love it <3 <3",
+            "I w8 for the M size to buy more of this type",
+            "It's so comfy"
+          ],
+          "location": "img/products/women/clothing/sweatshirts/0/"
+        }
+      ],
+      "jackets": [],
+      "pants": [],
+      "skirts": [],
+      "dressses": [],
+      "sweaters": [],
+      "underwear": [],
+      "sport": []
+    },
+    "footwear": {
+      "boots": [],
+      "shoes": [],
+      "slipers": [],
+      "sandals": [],
+      "sport": []
+    },
+    "accessory": {
+      "jewelery": [],
+      "caps": [],
+      "bags": [],
+      "sunglasses": []
+    }
+  },
+  "men": {
+    "clothing": {
+      "sweatshirts": [],
+      "jackets": [],
+      "pants": [],
+      "sweaters": [],
+      "underwear": [],
+      "sport": []
+    },
+    "footwear": {
+      "boots": [],
+      "shoes": [],
+      "slipers": [],
+      "sandals": [],
+      "sport": []
+    },
+    "accessory": {
+      "caps": [],
+      "neckwear": [],
+      "belts": []
+    }
+  },
+  "children": {
+    "babies": {
+      "clothing": [],
+      "footwear": [],
+      "accessory": []
+    },
+    "girls": {
+      "clothing": [],
+      "footwear": [],
+      "accessory": []
+    },
+    "boys": {
+      "clothing": [],
+      "footwear": [],
+      "accessory": []
+    }
+  }
+}
