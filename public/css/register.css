@@ -1,0 +1,48 @@
+h1 {
+  margin: 50px 200px 10px 200px;
+  font-size: 40px;
+}
+
+.alerts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 30px 200px 30px 200px;
+}
+
+.alert {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 0 5px 0;
+  background-color: lightgoldenrodyellow;
+  color: red;
+}
+
+.alert-msg {
+  font-size: 20px ;
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 5px 30px 5px 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 200px 30px 200px;
+}
+
+.form-group label{
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+
+.form-group input{
+  font-size: 27px;
+}
+
+.btn {
+  margin: 10px 200px 50px 200px;
+  font-size: 20px;
+}

@@ -4,7 +4,7 @@ var countDownDate = new Date("Jun 21, 2021 13:13:21").getTime();
 window.onload = setInterval(function () {
   // get the current date and time
   var now = new Date().getTime();
-  console.log(new Date());
+  // console.log(new Date());
 
   // calculate the difference between the 2 dates
   var diff = countDownDate - now;
@@ -55,6 +55,6 @@ window.onload = setTimeout(function () {
   }
 
   // for testing
-  console.log(localStorage.getItem("visits"));
+  console.log("Number of visits: " + localStorage.getItem("visits"));
 });
 
