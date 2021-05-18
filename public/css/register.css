@@ -46,3 +46,7 @@ h1 {
   margin: 10px 200px 50px 200px;
   font-size: 20px;
 }
+
+.btn:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.fa-sign-out {
+  padding: 20px;
+  font-size: 25px;
+  width: 22px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #312F2F;
+  color: white;
+}
+
+.btn-logout {
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn-logout:hover {
+  cursor: pointer;
+}

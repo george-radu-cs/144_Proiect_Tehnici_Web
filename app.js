@@ -19,7 +19,8 @@ initializePassport(
    id => users.find(user => user.id === id)
 )
 
-users = [];
+// remember the users -> this should be replaced with a db
+const users = [];
 
 const app = new express();
 const port = 8000;
@@ -50,6 +51,7 @@ const urlencodedParser = bodyParser.urlencoded({extended: false});
 
 // set the routes
 const shopRouter = require('./src/routes/shop');
+const {authenticate} = require('passport');
 
 app.get('/', (req, res) => {
    res.render('index', {title: 'Home Page'})
@@ -134,7 +136,6 @@ app.post('/login', passport.authenticate('local', {
    failureRedirect: '/login',
    failureFlash: true
 }));
-// res.render('index', {title: 'Home Page'})
 
 app.delete('/logout', (req, res) => {
    req.logOut();
@@ -143,13 +144,17 @@ app.delete('/logout', (req, res) => {
 
 app.use('/', shopRouter);
 
+/* we need these 2 functions to know when a user is authenticated or not, not
+   * all the page should be accessed if a user is not logged (in our case
+   * test_login, but other examples like a page where the user change his
+   * profile, add an address etc.) and nor if a user is logged in(we don't want
+   * a user to login twice, or register again) */
 function checkAuthenticated(req, res, next) {
    if (req.isAuthenticated()) {
       return next()
    }
    res.redirect('/login')
 }
-
 function checkNotAuthenticated(req, res, next) {
    if (req.isAuthenticated()) {
       return res.redirect('/')

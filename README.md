@@ -24,7 +24,7 @@ npm start
 
 ## TODO
 
-- css pt login/logout/register puse la punct
+..
 
 ## POZE
 
