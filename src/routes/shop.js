@@ -1,14 +1,6 @@
-const express=require('express');
+const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
 const shopRouter = express.Router();
-
-shopRouter.get('', async (req, res) => {
-    res.render('index', {title: 'Home Page'})
-});
-
-shopRouter.get('/register', async (req, res) => {
-    res.render('register', {title: 'Register', layout: 'layouts/layout_sell'})
-});
 
 shopRouter.get('/list_products', (req, res) => {
     res.render('list_products', {title: 'List products', layout: 'layouts/layout_sell'})

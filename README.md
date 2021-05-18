@@ -24,9 +24,7 @@ npm start
 
 ## TODO
 
-- creeaza pagina template pentru un produs
-- vezi cum se fac sesiunile si login
-- modifca continutul din paginile din footer din lorem ipsum in altceva
+- css pt login/logout/register puse la punct
 
 ## POZE
 
