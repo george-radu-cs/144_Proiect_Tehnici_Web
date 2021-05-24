@@ -8,25 +8,47 @@ Grupa: 144
 
 ---
 
-Porneste sv JSON:
+Start the JSON server:
 
 ```js
 json-server --watch data/products.json
 ```
 
-Am folosit nodemon in dev mode pentru a nu mai trebui sa repornesc serverul manual.
+I used nodemon in dev mode for convenience.
 
-Porneste sv NPM:
+Start the Node.js server:
 
 ```js
 npm start
 ```
 
+## Site presentation
+
+### Index page
+
+![index_1](./public/img/showcase/ss_index_page.png)
+![index_1](./public/img/showcase/ss_index_2.png)
+![index_1](./public/img/showcase/ss_dropdown.png)
+
+### List products
+
+![index_1](./public/img/showcase/ss_show_products.png)
+
+### Register & Login
+
+![index_1](./public/img/showcase/ss_register.png)
+![index_1](./public/img/showcase/ss_login.png)
+
+### The format of pages with info, can be found at the bottom of each page in footer
+
+![index_1](./public/img/showcase/ss_details.png)
+
 ## TODO
 
-..
+- maybe in the future add more data for the site, and more utility to it like a
+shopping cart etc.
 
-## POZE
+## Pictures
 
 Credits to:
 
