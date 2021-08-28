@@ -1,4 +1,4 @@
-function showSearch() {
+const showSearch = () => {
   let x = document.getElementById("dropdown-search");
   if (x.style.display === "none") {
     x.style.display = "flex";

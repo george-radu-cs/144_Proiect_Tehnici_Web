@@ -1,60 +1,92 @@
 .container-404 {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin: 100px 200px 100px 200px;
-  padding: 43px 50px 43px 50px;
-  background-color: #312F2F;
+  padding: 90px 250px 90px 250px;
+  background-color: #cbcaca;
+}
+
+.container-404 svg {
+  position: absolute;
+  opacity: 0.2;
 }
 
 .container-404-message {
-  display:flex;
+  display: flex;
+  position: relative;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
 }
 
 .error-title {
+  position: relative;
   font-size: 48px;
-  color: #EF626C;
+  color: #ef626c;
   text-align: center;
 }
 
-.container-404 div a{
+.container-404 div a {
+  position: relative;
   font-size: 48px;
-  color: #EF626C;
-  background-color: #F6E8EA;;
+  color: #f6e8ea;
+  background-color: #ef626c;
+  border-radius: 15px;
+  border: 15px solid #ef626c;
 }
 
-/* pentru tablete */
-@media only screen and (max-width: 1280px){
-  .container-404{
+.custom-svg-error-1 {
+  width: 100%;
+  margin: -5px 0 -5px 0;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #cbcaca;
+}
+
+.custom-svg-error-1 svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 100px;
+}
+
+.custom-svg-error-1 .shape-fill {
+  fill: #312f2f;
+}
+
+.custom-svg-f-1 {
+  background-color: #cbcaca !important;
+}
+
+/* for tablets */
+@media only screen and (max-width: 1280px) {
+  .container-404 {
     margin: 50px 75px 50px 75px;
     padding: 25px 50px 25px 50px;
   }
   .error-title {
     font-size: 48px;
   }
-  .container-404 div a{
+  .container-404 div a {
     font-size: 48px;
   }
 }
 
-/* pentru telefon mobil */
-@media only screen and (max-width: 768px){
-  .container-404{
+/* for mobile phones */
+@media only screen and (max-width: 768px) {
+  .container-404 {
     margin: 25px 50px 25px 50px;
     padding: 25px 50px 25px 50px;
     font-size: 27px;
   }
-  .container-404-message{
+  .container-404-message {
     flex-wrap: nowrap;
   }
   .error-title {
     font-size: 27px;
   }
-  .container-404 div a{
+  .container-404 div a {
     font-size: 27px;
   }
 }

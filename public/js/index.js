@@ -1,7 +1,7 @@
 // countdown for promotions
 var countDownDate = new Date("Jun 21, 2021 13:13:21").getTime();
 // update the countdown every 1s
-window.onload = setInterval(function () {
+window.onload = setInterval(() => {
   // get the current date and time
   var now = new Date().getTime();
   // console.log(new Date());
@@ -26,12 +26,12 @@ window.onload = setInterval(function () {
 }, 1000);
 
 // change the image from slides random, the timer is set to 7s but the function can select the same image that it's shown so nothing happens, thus the randomness
-window.onload = setInterval(function changePicture() {
+window.onload = setInterval(() => {
   let x = Math.floor((Math.random() * 3) + 1);
   document.getElementById('img-' + x).checked = true
 }, 7000);
 
-window.onload = setTimeout(function () {
+window.onload = setTimeout(() => {
   const urlParams = new URLSearchParams(window.location.search);
   const param = urlParams.get('g');
 
@@ -39,7 +39,7 @@ window.onload = setTimeout(function () {
 }, 10000);
 
 // save the number of visits in total for the user, after 20 visits make an offer
-window.onload = setTimeout(function () {
+window.onload = setTimeout(() => {
   // localStorage.removeItem("visits");
 
   // check if the item exists

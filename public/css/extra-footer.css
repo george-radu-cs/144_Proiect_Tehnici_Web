@@ -1,33 +1,32 @@
 /* extra footer */
-.container-mail{
+.container-mail {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  margin: 50px 200px 0 200px;
-  padding: 25px 25px 75px 25px;
-  background: #312F2F;
+  padding: 50px 200px 100px 200px;
+  background: #312f2f;
   color: white;
 }
 
-.mail-form{
+.mail-form {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.container-mail p{
+.container-mail p {
   font-size: 48px;
   text-align: center;
 }
 
-.mail-form label{
+.mail-form label {
   font-size: 27px;
   margin: 10px;
 }
 
-.mail-form input{
+.mail-form input {
   font-size: 27px;
   margin: 10px;
 }
@@ -37,6 +36,7 @@
   justify-content: flex-start;
   align-items: center;
   padding: 50px 200px 50px 200px;
+  background-color: #cbcaca;
 }
 
 .social-media-friends {
@@ -55,7 +55,7 @@
   border-radius: 50%;
   cursor: pointer;
   opacity: 0.7;
-  background: #312F2F;
+  background: #312f2f;
   color: white;
 }
 
@@ -64,30 +64,52 @@
   transition: 0.5s;
 }
 
+.custom-svg-ef-1 {
+  width: 100%;
+  margin: -5px 0 -5px 0;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #cbcaca;
+}
 
-/* pentru tablete */
+.custom-svg-ef-1 svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 70px;
+}
+
+.custom-svg-ef-1 .shape-fill {
+  fill: #312f2f;
+}
+
+.custom-svg-f-1 {
+  background-color: #cbcaca !important;
+}
+
+/* for tablets */
 @media only screen and (max-width: 1280px) {
-  .container-mail{
+  .container-mail {
     padding: 25px 25px 25px 25px;
     margin: 40px 50px 0 50px;
   }
 
-  .container-mail p{
+  .container-mail p {
     font-size: 40px;
     margin: 10px;
     text-align: center;
   }
 
-  .mail-form{
+  .mail-form {
     display: flex;
     flex-direction: column;
   }
 
-  .mail-form label{
+  .mail-form label {
     font-size: 20px;
   }
 
-  .mail-form input{
+  .mail-form input {
     font-size: 20px;
   }
 
@@ -106,29 +128,29 @@
   }
 }
 
-/* pentru telefon mobil */
+/* for mobile phones */
 @media only screen and (max-width: 768px) {
-  .container-mail{
+  .container-mail {
     padding: 25px 25px 25px 25px;
     margin: 40px 50px 0 50px;
   }
 
-  .container-mail p{
+  .container-mail p {
     font-size: 30px;
     margin: 10px;
     text-align: center;
   }
 
-  .mail-form{
+  .mail-form {
     display: flex;
     flex-direction: column;
   }
 
-  .mail-form label{
+  .mail-form label {
     font-size: 16px;
   }
 
-  .mail-form input{
+  .mail-form input {
     font-size: 16px;
   }
 

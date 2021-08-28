@@ -8,7 +8,7 @@
   background: #111111;
 }
 
-.container-footer-sep{
+.container-footer-sep {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -26,15 +26,15 @@
   opacity: 1;
 }
 
-.footer-heading{
+.footer-heading {
   font-size: 27px;
-  color: #EF626C;
+  color: #ef626c;
   opacity: 1 !important;
 }
 
-.footer-heading a{
+.footer-heading a {
   font-size: 27px;
-  color: #EF626C;
+  color: #ef626c;
   opacity: 1 !important;
 }
 
@@ -42,53 +42,39 @@
   margin: 0 50px 0 50px;
 }
 
-/* pentru tablete */
-@media only screen and (max-width: 1280px){
-  .container-footer{
+.custom-svg-f-1 {
+  width: 100%;
+  margin: -5px 0 -5px 0;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  background-color: #ffffff;
+}
+
+.custom-svg-f-1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 99px;
+  transform: rotateY(180deg);
+}
+
+.custom-svg-f-1 .shape-fill {
+  fill: #111111;
+}
+
+/* for tablets */
+@media only screen and (max-width: 1280px) {
+  .container-footer {
     justify-content: space-evenly;
     padding: 50px 75px 50px 75px;
   }
 
-  .container-footer-sep{
+  .container-footer-sep {
     justify-content: space-between;
   }
 
-  .footer-column{
-    align-content: center;
-    margin: 20px 10px 0 10px;
-  }
-
-  .footer-heading{
-    font-size: 20px;
-  }
-
-  .footer-heading a{
-    font-size: 20px;
-  }
-
-  .footer-column{
-    padding: 10px;
-  }
-
-  .footer-column a{
-    font-size: 20px;
-  }
-}
-
-/* pentru telefon mobil */
-@media only screen and (max-width: 768px){
-  .container-footer{
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 25px 50px 25px 50px;
-  }
-
-  .container-footer{
-    justify-content: space-evenly;
-  }
-
-  .footer-column{
+  .footer-column {
     align-content: center;
     margin: 20px 10px 0 10px;
   }
@@ -97,15 +83,50 @@
     font-size: 20px;
   }
 
-  .footer-heading a{
+  .footer-heading a {
     font-size: 20px;
   }
 
-  .footer-column{
+  .footer-column {
     padding: 10px;
   }
 
-  .footer-column a{
+  .footer-column a {
+    font-size: 20px;
+  }
+}
+
+/* for mobile phones */
+@media only screen and (max-width: 768px) {
+  .container-footer {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px 50px 25px 50px;
+  }
+
+  .container-footer {
+    justify-content: space-evenly;
+  }
+
+  .footer-column {
+    align-content: center;
+    margin: 20px 10px 0 10px;
+  }
+
+  .footer-heading {
+    font-size: 20px;
+  }
+
+  .footer-heading a {
+    font-size: 20px;
+  }
+
+  .footer-column {
+    padding: 10px;
+  }
+
+  .footer-column a {
     font-size: 20px;
   }
 }
