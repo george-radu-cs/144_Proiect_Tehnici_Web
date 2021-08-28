@@ -5,32 +5,15 @@
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [
             "dressed to chill",
             "crew neck",
             "drop shoulders",
             "ribbed trims"
           ],
-          "ratings": [
-            4,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            3,
-            4,
-            4,
-            4
-          ],
+          "ratings": [4, 5, 4, 5, 4, 3, 5, 3, 4, 4, 4],
+          "rating": 4.5,
           "comments": [
             "Amazing!! I love it <3 <3",
             "I w8 for the M size to buy more of this type",
@@ -41,152 +24,95 @@
         {
           "name": "Sweatshirt gray",
           "price": 69.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [],
           "ratings": [],
+          "rating": 4.3,
           "comments": [],
           "location": "img/products/women/clothing/sweatshirts/1/"
         },
         {
           "name": "Sweatshirt purple",
           "price": 49.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [],
           "ratings": [],
+          "rating": 3.5,
           "comments": [],
           "location": "img/products/women/clothing/sweatshirts/2/"
         },
         {
           "name": "Sweatshirt purple",
           "price": 49.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [],
           "ratings": [],
+          "rating": 2.5,
           "comments": [],
           "location": "img/products/women/clothing/sweatshirts/3/"
         },
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [],
           "ratings": [],
+          "rating": 4.9,
           "comments": [],
           "location": "img/products/women/clothing/sweatshirts/4/"
         },
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [],
           "ratings": [],
+          "rating": 5,
           "comments": [],
           "location": "img/products/women/clothing/sweatshirts/5/"
         },
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [],
           "ratings": [],
+          "rating": 0,
           "comments": [],
           "location": "img/products/women/clothing/sweatshirts/6/"
         },
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [],
           "ratings": [],
+          "rating": 0.5,
           "comments": [],
           "location": "img/products/women/clothing/sweatshirts/7/"
         },
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [],
           "ratings": [],
+          "rating": 1.5,
           "comments": [],
           "location": "img/products/women/clothing/sweatshirts/8/"
         },
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [
             "dressed to chill",
             "crew neck",
             "drop shoulders",
             "ribbed trims"
           ],
-          "ratings": [
-            4,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            3,
-            4,
-            4,
-            4
-          ],
+          "ratings": [4, 5, 4, 5, 4, 3, 5, 3, 4, 4, 4],
+          "rating": 4.5,
           "comments": [
             "Amazing!! I love it <3 <3",
             "I w8 for the M size to buy more of this type",
@@ -197,32 +123,15 @@
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [
             "dressed to chill",
             "crew neck",
             "drop shoulders",
             "ribbed trims"
           ],
-          "ratings": [
-            4,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            3,
-            4,
-            4,
-            4
-          ],
+          "ratings": [4, 5, 4, 5, 4, 3, 5, 3, 4, 4, 4],
+          "rating": 4.5,
           "comments": [
             "Amazing!! I love it <3 <3",
             "I w8 for the M size to buy more of this type",
@@ -233,32 +142,15 @@
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [
             "dressed to chill",
             "crew neck",
             "drop shoulders",
             "ribbed trims"
           ],
-          "ratings": [
-            4,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            3,
-            4,
-            4,
-            4
-          ],
+          "ratings": [4, 5, 4, 5, 4, 3, 5, 3, 4, 4, 4],
+          "rating": 4.5,
           "comments": [
             "Amazing!! I love it <3 <3",
             "I w8 for the M size to buy more of this type",
@@ -269,32 +161,15 @@
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [
             "dressed to chill",
             "crew neck",
             "drop shoulders",
             "ribbed trims"
           ],
-          "ratings": [
-            4,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            3,
-            4,
-            4,
-            4
-          ],
+          "ratings": [4, 5, 4, 5, 4, 3, 5, 3, 4, 4, 4],
+          "rating": 4.5,
           "comments": [
             "Amazing!! I love it <3 <3",
             "I w8 for the M size to buy more of this type",
@@ -305,32 +180,15 @@
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [
             "dressed to chill",
             "crew neck",
             "drop shoulders",
             "ribbed trims"
           ],
-          "ratings": [
-            4,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            3,
-            4,
-            4,
-            4
-          ],
+          "ratings": [4, 5, 4, 5, 4, 3, 5, 3, 4, 4, 4],
+          "rating": 4.5,
           "comments": [
             "Amazing!! I love it <3 <3",
             "I w8 for the M size to buy more of this type",
@@ -341,32 +199,15 @@
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [
             "dressed to chill",
             "crew neck",
             "drop shoulders",
             "ribbed trims"
           ],
-          "ratings": [
-            4,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            3,
-            4,
-            4,
-            4
-          ],
+          "ratings": [4, 5, 4, 5, 4, 3, 5, 3, 4, 4, 4],
+          "rating": 4.5,
           "comments": [
             "Amazing!! I love it <3 <3",
             "I w8 for the M size to buy more of this type",
@@ -377,32 +218,15 @@
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [
             "dressed to chill",
             "crew neck",
             "drop shoulders",
             "ribbed trims"
           ],
-          "ratings": [
-            4,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            3,
-            4,
-            4,
-            4
-          ],
+          "ratings": [4, 5, 4, 5, 4, 3, 5, 3, 4, 4, 4],
+          "rating": 4.5,
           "comments": [
             "Amazing!! I love it <3 <3",
             "I w8 for the M size to buy more of this type",
@@ -413,32 +237,15 @@
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [
             "dressed to chill",
             "crew neck",
             "drop shoulders",
             "ribbed trims"
           ],
-          "ratings": [
-            4,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            3,
-            4,
-            4,
-            4
-          ],
+          "ratings": [4, 5, 4, 5, 4, 3, 5, 3, 4, 4, 4],
+          "rating": 4.5,
           "comments": [
             "Amazing!! I love it <3 <3",
             "I w8 for the M size to buy more of this type",
@@ -449,32 +256,15 @@
         {
           "name": "Sweatshirt purple",
           "price": 59.99,
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-          ],
+          "sizes": ["XS", "S", "M", "L", "XL"],
           "details": [
             "dressed to chill",
             "crew neck",
             "drop shoulders",
             "ribbed trims"
           ],
-          "ratings": [
-            4,
-            5,
-            4,
-            5,
-            4,
-            3,
-            5,
-            3,
-            4,
-            4,
-            4
-          ],
+          "ratings": [4, 5, 4, 5, 4, 3, 5, 3, 4, 4, 4],
+          "rating": 4.5,
           "comments": [
             "Amazing!! I love it <3 <3",
             "I w8 for the M size to buy more of this type",

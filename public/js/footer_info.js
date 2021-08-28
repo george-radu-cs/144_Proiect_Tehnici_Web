@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = () => {
   // get how many article elements are in the page
   let l = document.getElementsByTagName('article').length;
 
