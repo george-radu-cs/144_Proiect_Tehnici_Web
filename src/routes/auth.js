@@ -5,7 +5,7 @@ const { check, validationResult } = require('express-validator');
 const bcrypt = require('bcrypt');
 const authRouter = express.Router();
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
-const { passwordHelper } = require('../../passport-config');
+const { passwordHelper, saveUsers, users } = require('../../passport-config');
 
 /* we need these 2 functions to know when a user is authenticated or not, not
  * all the page should be accessed if a user is not logged (in our case
@@ -52,7 +52,7 @@ authRouter.post('/register', checkNotAuthenticated, urlencodedParser, [
   const pass1 = req.body.password1;
   const email = req.body.email;
 
-  if (pass.length <= 6) {
+  if (pass.length < 6) {
     errors.errors.push({ value: '', msg: 'Password must be at least 6 characters long', param: 'email', location: 'body' })
   }
   if (pass.length >= 21) {
@@ -83,6 +83,7 @@ authRouter.post('/register', checkNotAuthenticated, urlencodedParser, [
         password: hashedPassword
       })
       res.redirect('/auth/login');
+      saveUsers();
     }
     catch {
       res.redirect('/auth/register');

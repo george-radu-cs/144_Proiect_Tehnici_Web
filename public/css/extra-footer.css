@@ -11,6 +11,13 @@
 
 .mail-form {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mail-form-inputs {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
@@ -29,6 +36,19 @@
 .mail-form input {
   font-size: 27px;
   margin: 10px;
+}
+
+.form-button {
+  background-color: #ef626c;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin: 20px 0 0 0;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 27px;
 }
 
 .container-social {

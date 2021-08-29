@@ -1,14 +1,19 @@
 <div id="extra-footer">
   <div class="container container-mail">
     <p>Find out first when we have new stocks on email</p>
-    <form class="mail-form">
-      <div class="mail-form-name">
-        <label id="label-name">Name</label>
-        <input type="text" name="search-box" placeholder="your name" />
+    <form class="mail-form" method="POST" action="add-to-newsletter">
+      <div class="mail-form-inputs">
+        <div class="mail-form-name">
+          <label id="name">Name</label>
+          <input type="text" name="name" placeholder="your name" />
+        </div>
+        <div class="mail-form-name">
+          <label id="email">Email</label>
+          <input type="text" name="email" placeholder="your email" />
+        </div>
       </div>
-      <div class="mail-form-name">
-        <label id="label-email">Email</label>
-        <input type="text" name="label-email" placeholder="your email" />
+      <div>
+        <button type="submit" class="form-button">Notify me!</button>
       </div>
     </form>
   </div>
