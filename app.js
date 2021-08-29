@@ -13,7 +13,14 @@ const {
    saveUsers,
    initializeUsers,
    users,
-} = require('./passport-config')
+} = require('./passport-config');
+const {
+   subscriptions,
+   initializeSubscriptions,
+   saveSubscriptions,
+   sendNewsLetter,
+   validateSubscriptionData,
+} = require('./public/js/newsletter');
 
 initializePassport(
    passport,
@@ -53,11 +60,38 @@ app.get('/', (req, res) => {
    res.render('index', { title: 'Home Page' })
 });
 
+app.post('/add-to-newsletter', (req, res) => {
+   const name = req.body.name;
+   const email = req.body.email;
+   const isValid = validateSubscriptionData(name, email);
+   if (isValid) { // if the subscription data is valid
+      let isInList = false;
+      subscriptions.forEach(s => {
+         if (s.email === email) {
+            isInList = true;
+            return;
+         }
+      })
+      if (!isInList) {
+         subscriptions.push({ name: name, email: email });
+      }
+   }
+   res.redirect('/');
+});
+
+app.get("/sendNewsLetter", (req, res) => {
+   if (subscriptions.length) {
+      sendNewsLetter()
+   }
+   res.redirect("/")
+});
+
 app.use('/auth', authRouter);
 app.use('/', shopRouter);
 
 app.listen(port, () => {
    initializeUsers();
+   initializeSubscriptions();
 
    console.log("server is up\nconnect to: localhost:8000")
 });
@@ -66,6 +100,7 @@ process.stdin.resume(); // so the program will not close instantly
 
 const exitHandler = (options, exitCode) => {
    saveUsers();
+   saveSubscriptions();
    if (options.cleanup) console.log('clean');
    if (exitCode || exitCode === 0) console.log(exitCode);
    if (options.exit) process.exit();

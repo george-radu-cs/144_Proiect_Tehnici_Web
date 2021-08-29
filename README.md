@@ -46,13 +46,16 @@ npm start
 ## TODO
 
 - maybe in the future add more data for the site, and more utility to it like a
-shopping cart etc.
+  shopping cart etc.
+- add CRON for newsletter
+- create template newsletter
+- update images README
 
 ## Pictures
 
 Credits to:
 
-```css
+```
 https://www.pexels.com/
 ```
 
