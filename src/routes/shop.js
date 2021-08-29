@@ -1,5 +1,4 @@
 const express = require('express');
-const expressLayouts = require('express-ejs-layouts');
 const shopRouter = express.Router();
 
 shopRouter.get('/list_products', (req, res) => {
@@ -60,7 +59,7 @@ shopRouter.get('/terms_and_conditions', (req, res) => {
 
 // handle the 404 error
 shopRouter.use('*', (req, res) => {
-    res.render("error", { title: "404 Page not found!", layout: 'layouts/layout-info' });
+    res.render("error", { title: "404 Page not found!", layout: 'layouts/layout_info' });
 });
 
 // handle the 500 error
